@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "rubymod:raw_ruby_block",
+    "rubymod:ruby_block",
+    "rubymod:ruby_ore",
+    "rubymod:deepslate_ruby_ore",
+    "rubymod:end_stone_ruby_ore",
+    "rubymod:nether_ruby_ore"
+  ]
+}

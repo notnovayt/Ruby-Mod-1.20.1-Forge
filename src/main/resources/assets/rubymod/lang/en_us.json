@@ -5,5 +5,10 @@
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.raw_ruby_block": "Block of Raw Ruby",
 
+  "block.rubymod.ruby_ore": "Ruby Ore",
+  "block.rubymod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.rubymod.end_stone_ruby_ore": "End Stone Ruby Ore",
+  "block.rubymod.nether_ruby_ore": "Nether Ruby Ore",
+
   "creativetab.rubymod_tab": "Ruby Mod Group"
 }

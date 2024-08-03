@@ -1,5 +1,7 @@
 package net.surya.rubymod.block;
 
+import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -23,6 +25,19 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
     public static final RegistryObject<Block> RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+    public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+    public static final RegistryObject<Block> NETHER_RUBY_ORE = registerBlock("nether_ruby_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)
+                    .strength(0.4f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
+    public static final RegistryObject<Block> END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(4, 7)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
