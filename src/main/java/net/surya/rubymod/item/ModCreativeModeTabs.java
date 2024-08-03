@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
 
+                        pOutput.accept(ModItems.TOMATO.get());
+
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
 
@@ -30,6 +32,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
                         pOutput.accept(ModBlocks.NETHER_RUBY_ORE.get());
                         pOutput.accept(ModBlocks.END_STONE_RUBY_ORE.get());
+
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
                     })
                     .build());
