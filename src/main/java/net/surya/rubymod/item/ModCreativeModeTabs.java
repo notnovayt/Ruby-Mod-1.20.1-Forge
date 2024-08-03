@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RUBY.get());
                         pOutput.accept(ModItems.RAW_RUBY.get());
 
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
 
