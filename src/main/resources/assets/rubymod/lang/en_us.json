@@ -2,5 +2,8 @@
   "item.rubymod.ruby": "Ruby",
   "item.rubymod.raw_ruby": "Raw Ruby",
 
+  "block.rubymod.ruby_block": "Block of Ruby",
+  "block.rubymod.raw_ruby_block": "Block of Raw Ruby",
+
   "creativetab.rubymod_tab": "Ruby Mod Group"
 }
