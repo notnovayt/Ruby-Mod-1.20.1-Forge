@@ -25,6 +25,8 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.TOMATO.get());
 
+                        pOutput.accept(ModItems.COAL_BRIQUETTE.get());
+
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
 

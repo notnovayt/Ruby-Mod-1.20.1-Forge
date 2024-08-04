@@ -6,6 +6,8 @@
 
   "item.rubymod.tomato": "Tomato",
 
+  "item.rubymod.coal_briquette": "Coal Briquette",
+
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.raw_ruby_block": "Block of Raw Ruby",
 
@@ -15,6 +17,9 @@
   "block.rubymod.nether_ruby_ore": "Nether Ruby Ore",
 
   "block.rubymod.sound_block": "Sound Block",
+
+  "tooltip.rubymod.metal_detector.tooltip": "Finds valuable ores underground",
+  "tooltip.rubymod.sound_block.tooltip": "Plays a sound when right-clicked",
 
   "creativetab.rubymod_tab": "Ruby Mod Group"
 }

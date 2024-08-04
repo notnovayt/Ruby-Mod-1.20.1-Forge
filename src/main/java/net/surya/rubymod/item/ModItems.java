@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.surya.rubymod.RubyMod;
+import net.surya.rubymod.item.custom.FuelItem;
 import net.surya.rubymod.item.custom.MetalDetectorItem;
 
 public class ModItems {
@@ -22,6 +23,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
             () -> new Item(new Item.Properties().food(ModFoods.TOMATO)));
+
+    public static final RegistryObject<Item> COAL_BRIQUETTE = ITEMS.register("coal_briquette",
+            () -> new FuelItem(new Item.Properties(), 200));
 
 
     public static void register(IEventBus eventBus) {
