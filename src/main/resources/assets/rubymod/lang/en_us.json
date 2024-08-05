@@ -18,6 +18,16 @@
 
   "block.rubymod.sound_block": "Sound Block",
 
+  "block.rubymod.ruby_stairs": "Ruby Stairs",
+  "block.rubymod.ruby_slab": "Ruby Slab",
+  "block.rubymod.ruby_door": "Ruby Door",
+  "block.rubymod.ruby_trapdoor": "Ruby Trapdoor",
+  "block.rubymod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.rubymod.ruby_button": "Ruby Button",
+  "block.rubymod.ruby_fence": "Ruby Fence",
+  "block.rubymod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.rubymod.ruby_wall": "Ruby Wall",
+
   "tooltip.rubymod.metal_detector.tooltip": "Finds valuable ores underground",
   "tooltip.rubymod.sound_block.tooltip": "Plays a sound when right-clicked",
 
