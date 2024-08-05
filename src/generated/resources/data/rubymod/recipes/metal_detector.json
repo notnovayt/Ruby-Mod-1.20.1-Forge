@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "pattern": [
+    "I  ",
+    " I ",
+    "  L"
+  ],
+  "result": {
+    "item": "rubymod:metal_detector"
+  },
+  "show_notification": true
+}
