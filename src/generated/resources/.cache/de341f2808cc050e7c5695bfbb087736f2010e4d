@@ -1,0 +1,5 @@
+// 1.20.1	2024-08-05T19:42:41.7587242	Tags for minecraft:block mod id rubymod
+ae329df789801fdf8f858c8ed45b3db07bb483fa data/forge/tags/blocks/needs_netherite_tool.json
+9baab3454b8dd72ed598ac6a8daebc3c5ddc636c data/minecraft/tags/blocks/mineable/pickaxe.json
+9baab3454b8dd72ed598ac6a8daebc3c5ddc636c data/minecraft/tags/blocks/needs_iron_tool.json
+958405b7544741102caae082ede6f4f12208d9bf data/rubymod/tags/blocks/metal_detector_detectable_blocks.json
