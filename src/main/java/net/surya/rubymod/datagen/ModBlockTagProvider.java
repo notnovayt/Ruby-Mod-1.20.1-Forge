@@ -65,7 +65,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_FENCE_GATE.get())
                 .add(ModBlocks.RUBY_WALL.get());
 
-        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
+        this.tag(ModTags.Blocks.NEEDS_RUBY_TOOL)
                 .add(ModBlocks.SOUND_BLOCK.get());
 
         this.tag(BlockTags.FENCES)

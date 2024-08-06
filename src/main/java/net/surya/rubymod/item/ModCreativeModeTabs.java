@@ -27,6 +27,14 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.COAL_BRIQUETTE.get());
 
+                        pOutput.accept(ModItems.RUBY_STAFF.get());
+
+                        pOutput.accept(ModItems.RUBY_SWORD.get());
+                        pOutput.accept(ModItems.RUBY_PICKAXE.get());
+                        pOutput.accept(ModItems.RUBY_AXE.get());
+                        pOutput.accept(ModItems.RUBY_SHOVEL.get());
+                        pOutput.accept(ModItems.RUBY_HOE.get());
+
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
 

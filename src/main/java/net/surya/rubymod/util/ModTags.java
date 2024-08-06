@@ -11,6 +11,7 @@ import net.surya.rubymod.RubyMod;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> METAL_DETECTOR_DETECTABLE_BLOCKS = tag("metal_detector_detectable_blocks");
+        public static final TagKey<Block> NEEDS_RUBY_TOOL = tag("needs_ruby_tool");
 
 
         private static TagKey<Block> tag(String name) {

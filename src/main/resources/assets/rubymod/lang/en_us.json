@@ -8,6 +8,14 @@
 
   "item.rubymod.coal_briquette": "Coal Briquette",
 
+  "item.rubymod.ruby_staff": "Ruby Staff",
+
+  "item.rubymod.ruby_sword": "Ruby Sword",
+  "item.rubymod.ruby_axe": "Ruby Axe",
+  "item.rubymod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.rubymod.ruby_shovel": "Ruby Shovel",
+  "item.rubymod.ruby_hoe": "Ruby Hoe",
+
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.raw_ruby_block": "Block of Raw Ruby",
 
