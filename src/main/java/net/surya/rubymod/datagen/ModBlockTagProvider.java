@@ -26,10 +26,23 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.RUBY_BLOCK.get(),
                         ModBlocks.RAW_RUBY_BLOCK.get(),
+
                         ModBlocks.RUBY_ORE.get(),
                         ModBlocks.DEEPSLATE_RUBY_ORE.get(),
                         ModBlocks.NETHER_RUBY_ORE.get(),
-                        ModBlocks.END_STONE_RUBY_ORE.get());
+                        ModBlocks.END_STONE_RUBY_ORE.get(),
+
+                        ModBlocks.RUBY_DOOR.get(),
+                        ModBlocks.RUBY_TRAPDOOR.get(),
+
+                        ModBlocks.RUBY_STAIRS.get(),
+                        ModBlocks.RUBY_SLAB.get(),
+                        ModBlocks.RUBY_BUTTON.get(),
+                        ModBlocks.RUBY_PRESSURE_PLATE.get(),
+
+                        ModBlocks.RUBY_FENCE.get(),
+                        ModBlocks.RUBY_FENCE_GATE.get(),
+                        ModBlocks.RUBY_WALL.get());
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
@@ -38,7 +51,19 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_ORE.get())
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE.get())
                 .add(ModBlocks.NETHER_RUBY_ORE.get())
-                .add(ModBlocks.END_STONE_RUBY_ORE.get());
+                .add(ModBlocks.END_STONE_RUBY_ORE.get())
+
+                .add(ModBlocks.RUBY_DOOR.get())
+                .add(ModBlocks.RUBY_TRAPDOOR.get())
+
+                .add(ModBlocks.RUBY_STAIRS.get())
+                .add(ModBlocks.RUBY_SLAB.get())
+                .add(ModBlocks.RUBY_BUTTON.get())
+                .add(ModBlocks.RUBY_PRESSURE_PLATE.get())
+
+                .add(ModBlocks.RUBY_FENCE.get())
+                .add(ModBlocks.RUBY_FENCE_GATE.get())
+                .add(ModBlocks.RUBY_WALL.get());
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.SOUND_BLOCK.get());

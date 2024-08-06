@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "rubymod:block/ruby_block",
+    "side": "rubymod:block/ruby_block",
+    "top": "rubymod:block/ruby_block"
+  }
+}

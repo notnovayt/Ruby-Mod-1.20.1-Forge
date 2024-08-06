@@ -5,6 +5,15 @@
     "rubymod:ruby_ore",
     "rubymod:deepslate_ruby_ore",
     "rubymod:nether_ruby_ore",
-    "rubymod:end_stone_ruby_ore"
+    "rubymod:end_stone_ruby_ore",
+    "rubymod:ruby_door",
+    "rubymod:ruby_trapdoor",
+    "rubymod:ruby_stairs",
+    "rubymod:ruby_slab",
+    "rubymod:ruby_button",
+    "rubymod:ruby_pressure_plate",
+    "rubymod:ruby_fence",
+    "rubymod:ruby_fence_gate",
+    "rubymod:ruby_wall"
   ]
 }

@@ -1,6 +1,15 @@
-// 1.20.1	2024-08-05T19:42:41.7657906	Item Models: rubymod
+// 1.20.1	2024-08-05T21:56:36.6348831	Item Models: rubymod
 1c6ad5fe7bf1668a0be86a68669ef3f4d3594874 assets/rubymod/models/item/coal_briquette.json
 043edf658febf323c30cabd378eaddae19151f70 assets/rubymod/models/item/metal_detector.json
 6f598b2961f3719e98d144ffc471f4536512844b assets/rubymod/models/item/raw_ruby.json
 920845f24b7a838369656fd18c23205d64b67974 assets/rubymod/models/item/ruby.json
+0a4f0b0bd9339d4301c85ce79293ab8ef5ce8add assets/rubymod/models/item/ruby_button.json
+5ee6a35096b22ef7fbde9ee7e61589595fe37865 assets/rubymod/models/item/ruby_door.json
+0e815193b652799eb12b37fe3ff57cd1b29b222d assets/rubymod/models/item/ruby_fence.json
+35780bd2fc7c5d4e5de7ea01ab4789a64fe08737 assets/rubymod/models/item/ruby_fence_gate.json
+2c786cbbf38fcb7c1174018ec290619f42a2695e assets/rubymod/models/item/ruby_pressure_plate.json
+7e9b2d88f0ba616ed6cfea83b6cf722c086a61d6 assets/rubymod/models/item/ruby_slab.json
+d406c2507f96ced1b3f64c996392963ba6e66cb0 assets/rubymod/models/item/ruby_stairs.json
+c38b976764e367cfa0894f292c97ba9bbbe1dfa7 assets/rubymod/models/item/ruby_trapdoor.json
+ec902217a005c55025c2c9a637831a612d4895fe assets/rubymod/models/item/ruby_wall.json
 800a1a2ddb6e54d0358a48ab08b7f4cb15e59c1a assets/rubymod/models/item/tomato.json
