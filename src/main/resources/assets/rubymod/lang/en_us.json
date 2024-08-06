@@ -16,6 +16,11 @@
   "item.rubymod.ruby_shovel": "Ruby Shovel",
   "item.rubymod.ruby_hoe": "Ruby Hoe",
 
+  "item.rubymod.ruby_helmet": "Ruby Helmet",
+  "item.rubymod.ruby_chestplate": "Ruby Chestplate",
+  "item.rubymod.ruby_leggings": "Ruby Leggings",
+  "item.rubymod.ruby_boots": "Ruby Boots",
+
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.raw_ruby_block": "Block of Raw Ruby",
 
