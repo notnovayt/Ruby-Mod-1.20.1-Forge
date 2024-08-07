@@ -8,6 +8,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.item.custom.FuelItem;
 import net.surya.rubymod.item.custom.MetalDetectorItem;
+import net.surya.rubymod.item.custom.ModArmorItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -42,7 +43,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.RUBY, 0, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
-            () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
             () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
