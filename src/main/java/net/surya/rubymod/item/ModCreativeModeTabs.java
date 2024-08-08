@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                         pOutput.accept(ModItems.TOMATO.get());
+                        pOutput.accept(ModItems.TOMATO_SEEDS.get());
 
                         pOutput.accept(ModItems.COAL_BRIQUETTE.get());
 

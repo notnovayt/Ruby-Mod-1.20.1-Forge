@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.surya.rubymod.item.ModItems;
 
 public class TomatoCropBlock extends CropBlock {
     public static final int MAX_AGE = 5;
@@ -18,11 +19,11 @@ public class TomatoCropBlock extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return
+        return ModItems.TOMATO_SEEDS.get();
     }
 
     @Override
-    protected IntegerProperty getAgeProperty() {
+    public IntegerProperty getAgeProperty() {
         return AGE;
     }
 

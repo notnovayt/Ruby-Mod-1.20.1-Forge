@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-05T21:56:36.633832	Loot Tables
+// 1.20.1	2024-08-08T20:13:08.0327705	Loot Tables
 e6424981b0645a74a4b951e12cc0c5a3cf1aa022 data/rubymod/loot_tables/blocks/deepslate_ruby_ore.json
 1dfe20d0ad677d8fb9d398e1533ddc39888b1d45 data/rubymod/loot_tables/blocks/end_stone_ruby_ore.json
 b4aa9ef0fe8eb754865d39451f312a785f100912 data/rubymod/loot_tables/blocks/nether_ruby_ore.json
@@ -15,3 +15,4 @@ acdda99a563c275a75208beb7cf081fb6f239c83 data/rubymod/loot_tables/blocks/ruby_do
 94c1bd57c7fe199808935553be3bb9b5ed04dcd8 data/rubymod/loot_tables/blocks/ruby_trapdoor.json
 ff5e6558c582f1496c783a0902b38cf44ee8785a data/rubymod/loot_tables/blocks/ruby_wall.json
 6db7b65be483fea412e626f5a7fb7d6ec8266e7e data/rubymod/loot_tables/blocks/sound_block.json
+bf47bd36295c9e72f7ccf707dcdc2655efa1a28e data/rubymod/loot_tables/blocks/tomato_crop.json

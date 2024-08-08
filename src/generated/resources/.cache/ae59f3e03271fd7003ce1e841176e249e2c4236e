@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-06T21:56:09.5480696	Item Models: rubymod
+// 1.20.1	2024-08-08T20:13:08.0337697	Item Models: rubymod
 1c6ad5fe7bf1668a0be86a68669ef3f4d3594874 assets/rubymod/models/item/coal_briquette.json
 043edf658febf323c30cabd378eaddae19151f70 assets/rubymod/models/item/metal_detector.json
 6f598b2961f3719e98d144ffc471f4536512844b assets/rubymod/models/item/raw_ruby.json
@@ -62,3 +62,4 @@ d406c2507f96ced1b3f64c996392963ba6e66cb0 assets/rubymod/models/item/ruby_stairs.
 c38b976764e367cfa0894f292c97ba9bbbe1dfa7 assets/rubymod/models/item/ruby_trapdoor.json
 ec902217a005c55025c2c9a637831a612d4895fe assets/rubymod/models/item/ruby_wall.json
 800a1a2ddb6e54d0358a48ab08b7f4cb15e59c1a assets/rubymod/models/item/tomato.json
+5df0918e75ed99fd607d9d242738100aba92eed3 assets/rubymod/models/item/tomato_seeds.json
