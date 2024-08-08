@@ -1,4 +1,5 @@
-// 1.20.1	2024-08-07T21:01:41.1839576	Global Loot Modifiers : rubymod
-708b4ba6f658c409672f967a19996a0a302acc8f data/forge/loot_modifiers/global_loot_modifiers.json
+// 1.20.1	2024-08-07T22:07:37.6999415	Global Loot Modifiers : rubymod
+6250bc7051b2387e7fcd9dbe732fc26d4d8858d6 data/forge/loot_modifiers/global_loot_modifiers.json
 38f03b47f2aa2548113557aa8321013dd4115559 data/rubymod/loot_modifiers/metal_detector_from_jungle_temples.json
+a06618aba3da997707e24f414fad2cdd27053936 data/rubymod/loot_modifiers/metal_detector_from_suspicious_sand.json
 1eec40471d5a2411cfcbaa0f884ccc52b9d6d3ee data/rubymod/loot_modifiers/ruby_from_creeper.json

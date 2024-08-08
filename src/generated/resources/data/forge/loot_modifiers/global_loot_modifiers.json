@@ -1,6 +1,7 @@
 {
   "entries": [
     "rubymod:ruby_from_creeper",
+    "rubymod:metal_detector_from_suspicious_sand",
     "rubymod:metal_detector_from_jungle_temples"
   ],
   "replace": false
