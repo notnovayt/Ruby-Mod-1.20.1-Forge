@@ -50,6 +50,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.TOMATO);
         simpleItem(ModItems.TOMATO_SEEDS);
 
+        simpleItem(ModItems.CORN);
+        simpleItem(ModItems.CORN_SEEDS);
+
         simpleBlockItem(ModBlocks.RUBY_DOOR);
 
         fenceItem(ModBlocks.RUBY_FENCE, ModBlocks.RUBY_BLOCK);

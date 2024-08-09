@@ -30,6 +30,9 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.RUBY_STAFF.get());
 
+                        pOutput.accept(ModItems.CORN.get());
+                        pOutput.accept(ModItems.CORN_SEEDS.get());
+
                         pOutput.accept(ModItems.RUBY_SWORD.get());
                         pOutput.accept(ModItems.RUBY_PICKAXE.get());
                         pOutput.accept(ModItems.RUBY_AXE.get());
