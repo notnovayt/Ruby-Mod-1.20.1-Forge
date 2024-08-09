@@ -47,6 +47,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         makeTomatoCrop((CropBlock) ModBlocks.TOMATO_CROP.get(), "tomato_crop_stage", "tomato_crop_stage");
         makeCornCrop((CropBlock) ModBlocks.CORN_CROP.get(), "corn_crop_stage", "corn_crop_stage");
+
+        simpleBlockWithItem(ModBlocks.DAHLIA.get(), models().cross(blockTexture(ModBlocks.DAHLIA.get()).getPath(),
+                blockTexture(ModBlocks.DAHLIA.get())).renderType("cutout"));
+        simpleBlockWithItem(ModBlocks.POTTED_DAHLIA.get(), models().singleTexture("potted_dahlia", new ResourceLocation("flower_pot_cross"), "plant",
+                blockTexture(ModBlocks.DAHLIA.get())).renderType("cutout"));
     }
 
     public void makeTomatoCrop(CropBlock block, String modelName, String textureName) {

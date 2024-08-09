@@ -66,6 +66,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.RUBY_DOOR.get());
                         pOutput.accept(ModBlocks.RUBY_TRAPDOOR.get());
 
+                        pOutput.accept(ModBlocks.DAHLIA.get());
+
                     })
                     .build());
 
