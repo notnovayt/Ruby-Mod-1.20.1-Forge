@@ -19,6 +19,7 @@ import net.surya.rubymod.item.ModCreativeModeTabs;
 import net.surya.rubymod.item.ModItems;
 import net.surya.rubymod.loot.ModLootModifiers;
 import net.surya.rubymod.sound.ModSounds;
+import net.surya.rubymod.villager.ModVillagers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -39,6 +40,7 @@ public class RubyMod {
         ModLootModifiers.register(modEventBus);
 
         ModSounds.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -34,5 +34,13 @@
     "sounds": [
       "rubymod:sound_block_fall"
     ]
+  },
+  "kaikaikitan": {
+    "sounds": [
+      {
+        "name": "rubymod:kaikaikitan",
+        "stream": true
+      }
+    ]
   }
 }

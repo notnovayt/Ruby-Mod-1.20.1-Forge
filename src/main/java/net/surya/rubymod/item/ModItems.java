@@ -10,6 +10,7 @@ import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.custom.FuelItem;
 import net.surya.rubymod.item.custom.MetalDetectorItem;
 import net.surya.rubymod.item.custom.ModArmorItem;
+import net.surya.rubymod.sound.ModSounds;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -59,6 +60,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> CORN = ITEMS.register("corn",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> KAIKAIKITAN_MUSIC_DISC = ITEMS.register("kaikaikitan_music_disc",
+            () -> new RecordItem(7, ModSounds.KAIKAIKITAN, new Item.Properties().stacksTo(1), 8920));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

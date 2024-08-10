@@ -25,6 +25,9 @@
   "item.rubymod.corn": "Corn",
   "item.rubymod.corn_seeds": "Corn Seeds",
 
+  "item.rubymod.kaikaikitan_music_disc": "KaiKai Kitan Music Disc",
+  "item.rubymod.kaikaikitan_music_disc.desc": "EVE - KaiKai Kitan",
+
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.raw_ruby_block": "Block of Raw Ruby",
 

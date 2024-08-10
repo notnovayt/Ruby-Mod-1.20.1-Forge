@@ -24,5 +24,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 ModItems.RUBY_CHESTPLATE.get(),
                 ModItems.RUBY_LEGGINGS.get(),
                 ModItems.RUBY_BOOTS.get());
+
+        this.tag(ItemTags.MUSIC_DISCS)
+                .add(ModItems.KAIKAIKITAN_MUSIC_DISC.get());
     }
 }

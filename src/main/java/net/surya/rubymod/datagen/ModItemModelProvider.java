@@ -53,6 +53,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CORN);
         simpleItem(ModItems.CORN_SEEDS);
 
+        simpleItem(ModItems.KAIKAIKITAN_MUSIC_DISC);
+
         simpleBlockItem(ModBlocks.RUBY_DOOR);
 
         fenceItem(ModBlocks.RUBY_FENCE, ModBlocks.RUBY_BLOCK);
