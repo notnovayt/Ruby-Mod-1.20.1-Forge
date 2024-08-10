@@ -50,5 +50,7 @@
   "tooltip.rubymod.metal_detector.tooltip": "Finds valuable ores underground",
   "tooltip.rubymod.sound_block.tooltip": "Plays a sound when right-clicked",
 
+  "entity.minecraft.villager.rubymod.soundmaster": "Sound Master",
+
   "creativetab.rubymod_tab": "Ruby Mod Group"
 }

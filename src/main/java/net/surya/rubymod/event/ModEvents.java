@@ -14,7 +14,9 @@ import net.minecraftforge.event.village.WandererTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.surya.rubymod.RubyMod;
+import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.ModItems;
+import net.surya.rubymod.villager.ModVillagers;
 
 import java.util.List;
 
@@ -50,6 +52,20 @@ public class ModEvents {
                     new ItemStack(ModItems.RUBY.get(), 42),
                     enchantedBook,
                     2, 8, 0.02f));
+        }
+
+        if (event.getType() == ModVillagers.SOUND_MASTER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+
+            trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModBlocks.SOUND_BLOCK.get(), 1),
+                    16, 8, 0.02f));
+
+            trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(ModBlocks.SOUND_BLOCK.get(), 1),
+                    new ItemStack(ModBlocks.RUBY_BLOCK.get(), 3),
+                    5, 12, 0.02f));
         }
     }
 
