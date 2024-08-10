@@ -1,0 +1,38 @@
+{
+  "metal_detector_found_ore": {
+    "subtitle": "sounds.rubymod.metal_detector_found_ore",
+    "sounds": [
+      "rubymod:metal_detector_found_ore"
+    ]
+  },
+  "sound_block_break": {
+    "subtitle": "rubymod.sound_block_break",
+    "sounds": [
+      "rubymod:sound_block_break"
+    ]
+  },
+  "sound_block_step": {
+    "subtitle": "rubymod.sound_block_step",
+    "sounds": [
+      "rubymod:sound_block_step"
+    ]
+  },
+  "sound_block_place": {
+    "subtitle": "rubymod.sound_block_place",
+    "sounds": [
+      "rubymod:sound_block_place"
+    ]
+  },
+  "sound_block_hit": {
+    "subtitle": "rubymod.sound_block_hit",
+    "sounds": [
+      "rubymod:sound_block_hit"
+    ]
+  },
+  "sound_block_fall": {
+    "subtitle": "rubymod.sound_block_fall",
+    "sounds": [
+      "rubymod:sound_block_fall"
+    ]
+  }
+}
