@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.item.ModCreativeModeTabs;
 import net.surya.rubymod.item.ModItems;
 import net.surya.rubymod.loot.ModLootModifiers;
@@ -41,6 +42,8 @@ public class RubyMod {
 
         ModSounds.register(modEventBus);
         ModVillagers.register(modEventBus);
+
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
