@@ -52,6 +52,8 @@
 
   "block.rubymod.dahlia": "Dahlia",
 
+  "block.rubymod.gem_polishing_station": "Gem Polishing Station",
+
   "tooltip.rubymod.metal_detector.tooltip": "Finds valuable ores underground",
   "tooltip.rubymod.sound_block.tooltip": "Plays a sound when right-clicked",
 

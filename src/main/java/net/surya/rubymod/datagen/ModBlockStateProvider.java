@@ -6,6 +6,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 import net.surya.rubymod.RubyMod;
@@ -52,6 +53,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 blockTexture(ModBlocks.DAHLIA.get())).renderType("cutout"));
         simpleBlockWithItem(ModBlocks.POTTED_DAHLIA.get(), models().singleTexture("potted_dahlia", new ResourceLocation("flower_pot_cross"), "plant",
                 blockTexture(ModBlocks.DAHLIA.get())).renderType("cutout"));
+
+        simpleBlockWithItem(ModBlocks.GEM_POLISHING_STATION.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/gem_polishing_station")));
     }
 
     public void makeTomatoCrop(CropBlock block, String modelName, String textureName) {

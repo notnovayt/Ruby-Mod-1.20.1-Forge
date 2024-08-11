@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.block.custom.CornCropBlock;
+import net.surya.rubymod.block.custom.GemPolishingStationBlock;
 import net.surya.rubymod.block.custom.SoundBlock;
 import net.surya.rubymod.block.custom.TomatoCropBlock;
 import net.surya.rubymod.item.ModItems;
@@ -83,6 +84,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> POTTED_DAHLIA = BLOCKS.register("potted_dahlia",
             () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.DAHLIA,
                     BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+
+    public static final RegistryObject<Block> GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            () -> new GemPolishingStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
