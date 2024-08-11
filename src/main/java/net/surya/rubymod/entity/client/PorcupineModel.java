@@ -161,7 +161,7 @@ public class PorcupineModel<T extends Entity> extends HierarchicalModel<T> {
 
 	@Override
 	public void setupAnim(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-		finish_anims
+
 	}
 
 	@Override
