@@ -46,6 +46,8 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.KAIKAIKITAN_MUSIC_DISC.get());
 
+                        pOutput.accept(ModItems.PORCUPINE_SPAWN_EGG.get());
+
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
 

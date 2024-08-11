@@ -1,10 +1,11 @@
-// 1.20.1	2024-08-09T22:33:34.7197935	Item Models: rubymod
+// 1.20.1	2024-08-10T21:54:30.4586499	Item Models: rubymod
 1c6ad5fe7bf1668a0be86a68669ef3f4d3594874 assets/rubymod/models/item/coal_briquette.json
 e37cb521c537b46e0f78ce60a015392b631c30c1 assets/rubymod/models/item/corn.json
 fcf8d1a54094466bbcec0b41cbe2ad253c204682 assets/rubymod/models/item/corn_seeds.json
 d523a8532512238b99a79f9d994f6348facc958e assets/rubymod/models/item/dahlia.json
 cfadcfe28dfd2dfe269a9efb8e1bd2e87dcfc68e assets/rubymod/models/item/kaikaikitan_music_disc.json
 043edf658febf323c30cabd378eaddae19151f70 assets/rubymod/models/item/metal_detector.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/rubymod/models/item/porcupine_spawn_egg.json
 6f598b2961f3719e98d144ffc471f4536512844b assets/rubymod/models/item/raw_ruby.json
 920845f24b7a838369656fd18c23205d64b67974 assets/rubymod/models/item/ruby.json
 eba177dda53aae244c6c6bf9067a63a1bb2cd2fa assets/rubymod/models/item/ruby_axe.json

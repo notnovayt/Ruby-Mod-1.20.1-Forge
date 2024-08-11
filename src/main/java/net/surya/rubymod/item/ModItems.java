@@ -1,12 +1,14 @@
 package net.surya.rubymod.item;
 
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.item.custom.FuelItem;
 import net.surya.rubymod.item.custom.MetalDetectorItem;
 import net.surya.rubymod.item.custom.ModArmorItem;
@@ -63,6 +65,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> KAIKAIKITAN_MUSIC_DISC = ITEMS.register("kaikaikitan_music_disc",
             () -> new RecordItem(7, ModSounds.KAIKAIKITAN, new Item.Properties().stacksTo(1), 8920));
+
+    public static final RegistryObject<Item> PORCUPINE_SPAWN_EGG = ITEMS.register("porcupine_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
