@@ -1,8 +1,9 @@
-// 1.20.1	2024-08-08T22:08:45.5500142	Block States: rubymod
+// 1.20.1	2024-08-12T20:39:32.6376583	Block States: rubymod
 8df65422252718d7230fd15f5b39cb12670b06bc assets/rubymod/blockstates/corn_crop.json
 6a082db546fa33d63e6a901b0ce0bfd38359e06e assets/rubymod/blockstates/dahlia.json
 379546a383a6d71226b390168e5fe73f2dc061bf assets/rubymod/blockstates/deepslate_ruby_ore.json
 b135db3e68cb613f33d102fb8bbacf63b3db48cf assets/rubymod/blockstates/end_stone_ruby_ore.json
+e125096157aaae9a34835332a4e53f684ebe112e assets/rubymod/blockstates/gem_polishing_station.json
 ecd9eaac39943e7eaccc4c84e2f7cc82cf548cfe assets/rubymod/blockstates/nether_ruby_ore.json
 692c5cc4b4ddf404eb4a27a9ce11721b06f4bade assets/rubymod/blockstates/potted_dahlia.json
 7ddc3f21e9a9f79b4daaeaf835bd6d308ab38177 assets/rubymod/blockstates/raw_ruby_block.json
@@ -75,6 +76,7 @@ fb7b11d12be568aadc1405b2166a3395ff517c7c assets/rubymod/models/block/tomato_crop
 5d7e73b097b4313eefaa45469fecdf0101df206a assets/rubymod/models/item/dahlia.json
 2cb341dcc45f8dee93ebf6e9499de7cb6aecd723 assets/rubymod/models/item/deepslate_ruby_ore.json
 95496874afba921ad9521e628eff109d4c1577d5 assets/rubymod/models/item/end_stone_ruby_ore.json
+8711c7051009ad44ff694367334bcbe4b99548d0 assets/rubymod/models/item/gem_polishing_station.json
 7ea7f3f288c9d7bff6be3288665becb080a458f8 assets/rubymod/models/item/nether_ruby_ore.json
 ff3b8328780f0c225da6b0b8180626976d6ddfd4 assets/rubymod/models/item/potted_dahlia.json
 c21b5ec36e6d3d24eaea7397250885a4813ea606 assets/rubymod/models/item/raw_ruby_block.json

@@ -22,6 +22,7 @@ import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.surya.rubymod.item.ModItems;
+import net.surya.rubymod.screen.GemPolishingStationMenu;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -101,7 +102,7 @@ public class GemPolishingStationBlockEntity extends BlockEntity implements MenuP
     @Nullable
     @Override
     public AbstractContainerMenu createMenu(int pContainerId, Inventory pPlayerInventory, Player pPlayer) {
-        return
+        return new GemPolishingStationMenu(pContainerId, pPlayerInventory, this, this.data);
     }
 
     @Override

@@ -1,6 +1,7 @@
 package net.surya.rubymod;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -16,11 +17,14 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.block.entity.ModBlockEntities;
 import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.entity.client.PorcupineRenderer;
 import net.surya.rubymod.item.ModCreativeModeTabs;
 import net.surya.rubymod.item.ModItems;
 import net.surya.rubymod.loot.ModLootModifiers;
+import net.surya.rubymod.screen.GemPolishingStationScreen;
+import net.surya.rubymod.screen.ModMenuTypes;
 import net.surya.rubymod.sound.ModSounds;
 import net.surya.rubymod.villager.ModVillagers;
 import org.slf4j.Logger;
@@ -46,6 +50,9 @@ public class RubyMod {
         ModVillagers.register(modEventBus);
 
         ModEntities.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -81,6 +88,8 @@ public class RubyMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.PORCUPINE.get(), PorcupineRenderer::new);
+
+            MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
         }
     }
 }

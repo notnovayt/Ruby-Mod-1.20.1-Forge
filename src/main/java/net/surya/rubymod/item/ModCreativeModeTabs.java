@@ -72,6 +72,8 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.DAHLIA.get());
 
+                        pOutput.accept(ModBlocks.GEM_POLISHING_STATION.get());
+
                     })
                     .build());
 
