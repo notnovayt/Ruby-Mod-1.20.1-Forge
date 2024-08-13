@@ -1,0 +1,11 @@
+{
+  "type": "rubymod:gem_polishing",
+  "ingredients": [
+    {
+      "item": "rubymod:raw_ruby"
+    }
+  ],
+  "output": {
+    "item": "rubymod:ruby"
+  }
+}

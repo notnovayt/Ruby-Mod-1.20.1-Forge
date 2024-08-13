@@ -23,6 +23,7 @@ import net.surya.rubymod.entity.client.PorcupineRenderer;
 import net.surya.rubymod.item.ModCreativeModeTabs;
 import net.surya.rubymod.item.ModItems;
 import net.surya.rubymod.loot.ModLootModifiers;
+import net.surya.rubymod.recipe.ModRecipes;
 import net.surya.rubymod.screen.GemPolishingStationScreen;
 import net.surya.rubymod.screen.ModMenuTypes;
 import net.surya.rubymod.sound.ModSounds;
@@ -53,6 +54,8 @@ public class RubyMod {
 
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
