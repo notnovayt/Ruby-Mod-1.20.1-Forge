@@ -2,6 +2,7 @@ package net.surya.rubymod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -27,6 +28,7 @@ import net.surya.rubymod.recipe.ModRecipes;
 import net.surya.rubymod.screen.GemPolishingStationScreen;
 import net.surya.rubymod.screen.ModMenuTypes;
 import net.surya.rubymod.sound.ModSounds;
+import net.surya.rubymod.util.ModWoodTypes;
 import net.surya.rubymod.villager.ModVillagers;
 import org.slf4j.Logger;
 
@@ -90,6 +92,8 @@ public class RubyMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            Sheets.addWoodType(ModWoodTypes.HAZELNUT);
+
             EntityRenderers.register(ModEntities.PORCUPINE.get(), PorcupineRenderer::new);
 
             MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);

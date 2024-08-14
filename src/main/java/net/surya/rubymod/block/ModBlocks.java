@@ -20,6 +20,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.surya.rubymod.sound.ModSounds;
+import net.surya.rubymod.util.ModWoodTypes;
 
 import java.util.function.Supplier;
 
@@ -132,6 +133,16 @@ public class ModBlocks {
                     return 30;
                 }
             });
+
+    public static final RegistryObject<Block> HAZELNUT_SIGN = BLOCKS.register("hazelnut_sign",
+            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.HAZELNUT));
+    public static final RegistryObject<Block> HAZELNUT_WALL_SIGN = BLOCKS.register("hazelnut_wall_sign",
+            () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.HAZELNUT));
+
+    public static final RegistryObject<Block> HAZELNUT_HANGING_SIGN = BLOCKS.register("hazelnut_hanging_sign",
+            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN), ModWoodTypes.HAZELNUT));
+    public static final RegistryObject<Block> HAZELNUT_WALL_HANGING_SIGN = BLOCKS.register("hazelnut_wall_hanging_sign",
+            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.HAZELNUT));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
