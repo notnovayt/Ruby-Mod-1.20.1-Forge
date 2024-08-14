@@ -74,5 +74,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_FENCE_GATE.get());
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.RUBY_WALL.get());
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.HAZELNUT_LOG.get())
+                .add(ModBlocks.HAZELNUT_WOOD.get())
+                .add(ModBlocks.STRIPPED_HAZELNUT_LOG.get())
+                .add(ModBlocks.STRIPPED_HAZELNUT_WOOD.get());
+
+        this.tag(BlockTags.PLANKS)
+                .add(ModBlocks.HAZELNUT_PLANKS.get());
     }
 }

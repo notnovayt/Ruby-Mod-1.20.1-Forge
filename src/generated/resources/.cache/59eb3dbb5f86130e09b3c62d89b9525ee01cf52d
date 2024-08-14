@@ -1,9 +1,13 @@
-// 1.20.1	2024-08-12T20:39:32.6412563	Loot Tables
+// 1.20.1	2024-08-13T22:41:51.7836838	Loot Tables
 8407f5c9fa5fc9ecef33ef6a8a9d0e548d7b488b data/rubymod/loot_tables/blocks/corn_crop.json
 b7372123e3232212c156f4a6a961a168dff8330e data/rubymod/loot_tables/blocks/dahlia.json
 e6424981b0645a74a4b951e12cc0c5a3cf1aa022 data/rubymod/loot_tables/blocks/deepslate_ruby_ore.json
 1dfe20d0ad677d8fb9d398e1533ddc39888b1d45 data/rubymod/loot_tables/blocks/end_stone_ruby_ore.json
 346c4e055f7b6a45ff7e27deb3cbef7ff12ca3b1 data/rubymod/loot_tables/blocks/gem_polishing_station.json
+4802f246211e80dc1a58ff8f6686dc9d91f4073d data/rubymod/loot_tables/blocks/hazelnut_leaves.json
+3f2049cc114283a3a1519bc249a53b994fdf3ac6 data/rubymod/loot_tables/blocks/hazelnut_log.json
+b942a079582b3d78382e74e1460ca53e1519f2fa data/rubymod/loot_tables/blocks/hazelnut_planks.json
+eb9b35767a51a23e686afa486da1913fdf5173ed data/rubymod/loot_tables/blocks/hazelnut_wood.json
 b4aa9ef0fe8eb754865d39451f312a785f100912 data/rubymod/loot_tables/blocks/nether_ruby_ore.json
 bf4660a81a003e53119435b26212350786b09e3f data/rubymod/loot_tables/blocks/potted_dahlia.json
 ece5093e80c40af6905acc2e7f4bc3e0fcd3a770 data/rubymod/loot_tables/blocks/raw_ruby_block.json
@@ -19,4 +23,6 @@ acdda99a563c275a75208beb7cf081fb6f239c83 data/rubymod/loot_tables/blocks/ruby_do
 94c1bd57c7fe199808935553be3bb9b5ed04dcd8 data/rubymod/loot_tables/blocks/ruby_trapdoor.json
 ff5e6558c582f1496c783a0902b38cf44ee8785a data/rubymod/loot_tables/blocks/ruby_wall.json
 6db7b65be483fea412e626f5a7fb7d6ec8266e7e data/rubymod/loot_tables/blocks/sound_block.json
+d4b70920ac66491ec93c76448ac52ef7410be7d5 data/rubymod/loot_tables/blocks/stripped_hazelnut_log.json
+87d5d83d2c68f8789e0aef101c920f90fd5d8ab0 data/rubymod/loot_tables/blocks/stripped_hazelnut_wood.json
 bf47bd36295c9e72f7ccf707dcdc2655efa1a28e data/rubymod/loot_tables/blocks/tomato_crop.json

@@ -74,6 +74,14 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.GEM_POLISHING_STATION.get());
 
+                        pOutput.accept(ModBlocks.HAZELNUT_LOG.get());
+                        pOutput.accept(ModBlocks.HAZELNUT_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_HAZELNUT_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_HAZELNUT_WOOD.get());
+
+                        pOutput.accept(ModBlocks.HAZELNUT_PLANKS.get());
+                        pOutput.accept(ModBlocks.HAZELNUT_LEAVES.get());
+
                     })
                     .build());
 

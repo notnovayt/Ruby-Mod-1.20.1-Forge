@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rubymod:block/hazelnut_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rubymod:block/hazelnut_wood"
+    },
+    "axis=z": {
+      "model": "rubymod:block/hazelnut_wood_horizontal",
+      "x": 90
+    }
+  }
+}

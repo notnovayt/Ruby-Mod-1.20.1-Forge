@@ -1,3 +1,5 @@
-// 1.20.1	2024-08-09T22:33:34.71779	Tags for minecraft:item mod id rubymod
+// 1.20.1	2024-08-13T22:41:51.781684	Tags for minecraft:item mod id rubymod
+c193d368a2ac4b93a8381b87de23adb9a2d1aa27 data/minecraft/tags/items/logs_that_burn.json
 f592716b51de23b41d6ab412cccc5705e1ff5793 data/minecraft/tags/items/music_discs.json
+531018508cb2baf15978999dc3e4c78d1d71c0b6 data/minecraft/tags/items/planks.json
 f34b690367ad0c90d22d86e383e8376bf6341f99 data/minecraft/tags/items/trimmable_armor.json

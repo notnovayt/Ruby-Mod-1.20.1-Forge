@@ -1,8 +1,10 @@
-// 1.20.1	2024-08-06T19:43:07.0320519	Tags for minecraft:block mod id rubymod
+// 1.20.1	2024-08-13T22:41:51.7796777	Tags for minecraft:block mod id rubymod
 49b3b390109a49965cf0e5f5d65d4dc1c4d1f123 data/minecraft/tags/blocks/fences.json
 9af555c5f2b89623b8ba0a6fe715b55017b7e656 data/minecraft/tags/blocks/fence_gates.json
+c193d368a2ac4b93a8381b87de23adb9a2d1aa27 data/minecraft/tags/blocks/logs_that_burn.json
 6e9a3e0f7b4726d973439dbd2884bfc775d0ee57 data/minecraft/tags/blocks/mineable/pickaxe.json
 6e9a3e0f7b4726d973439dbd2884bfc775d0ee57 data/minecraft/tags/blocks/needs_iron_tool.json
+531018508cb2baf15978999dc3e4c78d1d71c0b6 data/minecraft/tags/blocks/planks.json
 5412e7de451c2da9b13f5f00aa4fa5e882501805 data/minecraft/tags/blocks/walls.json
 958405b7544741102caae082ede6f4f12208d9bf data/rubymod/tags/blocks/metal_detector_detectable_blocks.json
 ae329df789801fdf8f858c8ed45b3db07bb483fa data/rubymod/tags/blocks/needs_ruby_tool.json

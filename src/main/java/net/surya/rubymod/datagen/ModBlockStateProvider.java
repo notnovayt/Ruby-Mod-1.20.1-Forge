@@ -8,6 +8,7 @@ import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.block.ModBlocks;
@@ -56,6 +57,34 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         simpleBlockWithItem(ModBlocks.GEM_POLISHING_STATION.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/gem_polishing_station")));
+
+        logBlock(((RotatedPillarBlock) ModBlocks.HAZELNUT_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.HAZELNUT_WOOD.get()), blockTexture(ModBlocks.HAZELNUT_LOG.get()), blockTexture(ModBlocks.HAZELNUT_LOG.get()));
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_HAZELNUT_LOG.get()), blockTexture(ModBlocks.STRIPPED_HAZELNUT_LOG.get()),
+                new ResourceLocation(RubyMod.MOD_ID, "block/stripped_hazelnut_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_HAZELNUT_WOOD.get()), blockTexture(ModBlocks.STRIPPED_HAZELNUT_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_HAZELNUT_LOG.get()));
+
+        blockItem(ModBlocks.HAZELNUT_LOG);
+        blockItem(ModBlocks.HAZELNUT_WOOD);
+        blockItem(ModBlocks.STRIPPED_HAZELNUT_LOG);
+        blockItem(ModBlocks.STRIPPED_HAZELNUT_WOOD);
+
+        blockWithItem(ModBlocks.HAZELNUT_PLANKS);
+
+        leavesBlock(ModBlocks.HAZELNUT_LEAVES);
+    }
+
+    private void leavesBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(),
+                models().singleTexture(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), new ResourceLocation("minecraft:block/leaves"),
+                        "all", blockTexture(blockRegistryObject.get())).renderType("cutout"));
+    }
+
+    private void blockItem(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile(RubyMod.MOD_ID +
+                ":block/" + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
     }
 
     public void makeTomatoCrop(CropBlock block, String modelName, String textureName) {

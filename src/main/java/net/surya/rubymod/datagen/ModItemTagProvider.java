@@ -7,6 +7,7 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.surya.rubymod.RubyMod;
+import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.item.ModItems;
 import org.jetbrains.annotations.Nullable;
 
@@ -27,5 +28,14 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.KAIKAIKITAN_MUSIC_DISC.get());
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.HAZELNUT_LOG.get().asItem())
+                .add(ModBlocks.HAZELNUT_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_HAZELNUT_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_HAZELNUT_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.HAZELNUT_PLANKS.get().asItem());
     }
 }

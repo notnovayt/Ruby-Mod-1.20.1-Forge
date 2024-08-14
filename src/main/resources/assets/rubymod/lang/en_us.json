@@ -54,6 +54,13 @@
 
   "block.rubymod.gem_polishing_station": "Gem Polishing Station",
 
+  "block.rubymod.hazelnut_log": "Hazelnut Log",
+  "block.rubymod.hazelnut_planks": "Hazelnut Planks",
+  "block.rubymod.hazelnut_wood": "Hazelnut Wood",
+  "block.rubymod.stripped_hazelnut_log": "Stripped Hazelnut Log",
+  "block.rubymod.stripped_hazelnut_wood": "Stripped Hazelnut Wood",
+  "block.rubymod.hazelnut_leaves": "Hazelnut Leaves",
+
   "tooltip.rubymod.metal_detector.tooltip": "Finds valuable ores underground",
   "tooltip.rubymod.sound_block.tooltip": "Plays a sound when right-clicked",
 

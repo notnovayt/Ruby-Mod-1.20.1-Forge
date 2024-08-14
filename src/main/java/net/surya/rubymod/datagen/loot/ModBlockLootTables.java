@@ -72,6 +72,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.POTTED_DAHLIA.get(), createPotFlowerItemTable(ModBlocks.DAHLIA.get()));
 
         this.dropSelf(ModBlocks.GEM_POLISHING_STATION.get());
+
+        this.dropSelf(ModBlocks.HAZELNUT_LOG.get());
+        this.dropSelf(ModBlocks.HAZELNUT_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_HAZELNUT_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_HAZELNUT_WOOD.get());
+        this.dropSelf(ModBlocks.HAZELNUT_PLANKS.get());
+
+        this.add(ModBlocks.HAZELNUT_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.RUBY_BLOCK.get(), NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {
