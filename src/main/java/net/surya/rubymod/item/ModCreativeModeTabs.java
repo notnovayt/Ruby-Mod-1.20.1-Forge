@@ -48,6 +48,9 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.PORCUPINE_SPAWN_EGG.get());
 
+                        pOutput.accept(ModItems.HAZELNUT_SIGN.get());
+                        pOutput.accept(ModItems.HAZELNUT_HANGING_SIGN.get());
+
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
 

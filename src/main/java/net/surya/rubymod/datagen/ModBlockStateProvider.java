@@ -74,6 +74,29 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.HAZELNUT_PLANKS);
 
         leavesBlock(ModBlocks.HAZELNUT_LEAVES);
+
+        signBlock(((StandingSignBlock) ModBlocks.HAZELNUT_SIGN.get()), ((WallSignBlock) ModBlocks.HAZELNUT_WALL_SIGN.get()),
+                blockTexture(ModBlocks.HAZELNUT_PLANKS.get()));
+
+        hangingSignBlock(ModBlocks.HAZELNUT_HANGING_SIGN.get(), ModBlocks.HAZELNUT_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.HAZELNUT_PLANKS.get()));
+    }
+
+    public void hangingSignBlock(Block signBlock, Block wallSignBlock, ResourceLocation texture) {
+        ModelFile sign = models().sign(name(signBlock), texture);
+        hangingSignBlock(signBlock, wallSignBlock, sign);
+    }
+
+    public void hangingSignBlock(Block signBlock, Block wallSignBlock, ModelFile sign) {
+        simpleBlock(signBlock, sign);
+        simpleBlock(wallSignBlock, sign);
+    }
+
+    private String name(Block block) {
+        return key(block).getPath();
+    }
+
+    private ResourceLocation key(Block block) {
+        return ForgeRegistries.BLOCKS.getKey(block);
     }
 
     private void leavesBlock(RegistryObject<Block> blockRegistryObject) {

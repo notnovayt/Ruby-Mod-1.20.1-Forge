@@ -82,6 +82,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItemBlockTexture(ModBlocks.DAHLIA);
 
         withExistingParent(ModItems.PORCUPINE_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
+        simpleItem(ModItems.HAZELNUT_SIGN);
+        simpleItem(ModItems.HAZELNUT_HANGING_SIGN);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

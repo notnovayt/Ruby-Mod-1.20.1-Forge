@@ -69,6 +69,11 @@ public class ModItems {
     public static final RegistryObject<Item> PORCUPINE_SPAWN_EGG = ITEMS.register("porcupine_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new Item.Properties()));
 
+    public static final RegistryObject<Item> HAZELNUT_SIGN = ITEMS.register("hazelnut_sign",
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.HAZELNUT_SIGN.get(), ModBlocks.HAZELNUT_WALL_SIGN.get()));
+    public static final RegistryObject<Item> HAZELNUT_HANGING_SIGN = ITEMS.register("hazelnut_hanging_sign",
+            () -> new HangingSignItem(ModBlocks.HAZELNUT_HANGING_SIGN.get(), ModBlocks.HAZELNUT_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

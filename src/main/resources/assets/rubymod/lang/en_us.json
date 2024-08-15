@@ -61,6 +61,9 @@
   "block.rubymod.stripped_hazelnut_wood": "Stripped Hazelnut Wood",
   "block.rubymod.hazelnut_leaves": "Hazelnut Leaves",
 
+  "block.rubymod.hazelnut_sign": "Hazelnut Sign",
+  "block.rubymod.hazelnut_hanging_sign": "Hazelnut Hanging Sign",
+
   "tooltip.rubymod.metal_detector.tooltip": "Finds valuable ores underground",
   "tooltip.rubymod.sound_block.tooltip": "Plays a sound when right-clicked",
 
