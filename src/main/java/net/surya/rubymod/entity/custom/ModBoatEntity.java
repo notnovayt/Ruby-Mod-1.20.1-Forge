@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.surya.rubymod.block.ModBlocks;
+import net.surya.rubymod.entity.ModEntities;
 import net.surya.rubymod.item.ModItems;
 
 import java.util.function.IntFunction;
@@ -24,7 +25,7 @@ public class ModBoatEntity extends Boat {
     }
 
     public ModBoatEntity(Level level, double pX, double pY, double pZ) {
-        this(, level);
+        this(ModEntities.MOD_BOAT.get(), level);
         this.setPos(pX, pY, pZ);
         this.xo = pX;
         this.yo = pY;

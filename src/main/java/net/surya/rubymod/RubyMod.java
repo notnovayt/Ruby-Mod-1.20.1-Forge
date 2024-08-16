@@ -20,6 +20,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.block.entity.ModBlockEntities;
 import net.surya.rubymod.entity.ModEntities;
+import net.surya.rubymod.entity.client.ModBoatRenderer;
 import net.surya.rubymod.entity.client.PorcupineRenderer;
 import net.surya.rubymod.item.ModCreativeModeTabs;
 import net.surya.rubymod.item.ModItems;
@@ -95,6 +96,8 @@ public class RubyMod {
             Sheets.addWoodType(ModWoodTypes.HAZELNUT);
 
             EntityRenderers.register(ModEntities.PORCUPINE.get(), PorcupineRenderer::new);
+            EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
+            EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
 
             MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
         }

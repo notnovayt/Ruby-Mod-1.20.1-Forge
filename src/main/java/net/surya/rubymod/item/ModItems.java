@@ -9,9 +9,11 @@ import net.minecraftforge.registries.RegistryObject;
 import net.surya.rubymod.RubyMod;
 import net.surya.rubymod.block.ModBlocks;
 import net.surya.rubymod.entity.ModEntities;
+import net.surya.rubymod.entity.custom.ModBoatEntity;
 import net.surya.rubymod.item.custom.FuelItem;
 import net.surya.rubymod.item.custom.MetalDetectorItem;
 import net.surya.rubymod.item.custom.ModArmorItem;
+import net.surya.rubymod.item.custom.ModBoatItem;
 import net.surya.rubymod.sound.ModSounds;
 
 public class ModItems {
@@ -73,6 +75,11 @@ public class ModItems {
             () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.HAZELNUT_SIGN.get(), ModBlocks.HAZELNUT_WALL_SIGN.get()));
     public static final RegistryObject<Item> HAZELNUT_HANGING_SIGN = ITEMS.register("hazelnut_hanging_sign",
             () -> new HangingSignItem(ModBlocks.HAZELNUT_HANGING_SIGN.get(), ModBlocks.HAZELNUT_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+
+    public static final RegistryObject<Item> HAZELNUT_BOAT = ITEMS.register("hazelnut_boat",
+            () -> new ModBoatItem(false, ModBoatEntity.Type.HAZELNUT, new Item.Properties()));
+    public static final RegistryObject<Item> HAZELNUT_CHEST_BOAT = ITEMS.register("hazelnut_chest_boat",
+            () -> new ModBoatItem(true, ModBoatEntity.Type.HAZELNUT, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
