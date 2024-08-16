@@ -51,6 +51,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.HAZELNUT_SIGN.get());
                         pOutput.accept(ModItems.HAZELNUT_HANGING_SIGN.get());
 
+                        pOutput.accept(ModItems.HAZELNUT_BOAT.get());
+                        pOutput.accept(ModItems.HAZELNUT_CHEST_BOAT.get());
+
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
 

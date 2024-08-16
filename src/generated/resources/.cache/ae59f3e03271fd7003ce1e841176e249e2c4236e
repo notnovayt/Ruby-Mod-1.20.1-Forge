@@ -1,8 +1,10 @@
-// 1.20.1	2024-08-14T22:19:25.4973312	Item Models: rubymod
+// 1.20.1	2024-08-15T22:21:20.6876311	Item Models: rubymod
 1c6ad5fe7bf1668a0be86a68669ef3f4d3594874 assets/rubymod/models/item/coal_briquette.json
 e37cb521c537b46e0f78ce60a015392b631c30c1 assets/rubymod/models/item/corn.json
 fcf8d1a54094466bbcec0b41cbe2ad253c204682 assets/rubymod/models/item/corn_seeds.json
 d523a8532512238b99a79f9d994f6348facc958e assets/rubymod/models/item/dahlia.json
+40a226e71c4524cd803254477c1fe15bfee7f1dd assets/rubymod/models/item/hazelnut_boat.json
+a3863df7db4d0feca553925a62d8546d1e672ea4 assets/rubymod/models/item/hazelnut_chest_boat.json
 1ef1eec7323546ed94daee962875498c53d86a04 assets/rubymod/models/item/hazelnut_hanging_sign.json
 85fd00fbdb2e8f9e76dce20cd707c37d096753ea assets/rubymod/models/item/hazelnut_sign.json
 cfadcfe28dfd2dfe269a9efb8e1bd2e87dcfc68e assets/rubymod/models/item/kaikaikitan_music_disc.json

@@ -30,6 +30,9 @@
 
   "item.rubymod.porcupine_spawn_egg": "Porcupine Spawn Egg",
 
+  "item.rubymod.hazelnut_boat": "Hazelnut Boat",
+  "item.rubymod.hazelnut_chest_boat": "Hazelnut Chest Boat",
+
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.raw_ruby_block": "Block of Raw Ruby",
 
@@ -68,6 +71,7 @@
   "tooltip.rubymod.sound_block.tooltip": "Plays a sound when right-clicked",
 
   "entity.minecraft.villager.rubymod.soundmaster": "Sound Master",
+  "entity.rubymod.mod_chest_boat": "Boat with Chest",
 
   "creativetab.rubymod_tab": "Ruby Mod Group"
 }
