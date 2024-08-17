@@ -1,11 +1,13 @@
-// 1.20.1	2024-08-16T22:29:56.1873018	Registries
+// 1.20.1	2024-08-17T19:41:17.1510321	Registries
 8c8d482323611089725755d6bb0f8a71cd2a981b data/rubymod/forge/biome_modifier/add_end_ruby_ore.json
 710ce648d893d6a9ed243bfb883c652ae61383d8 data/rubymod/forge/biome_modifier/add_nether_ruby_ore.json
 9691a921c860348f9547bde21dd7399faaa9ef62 data/rubymod/forge/biome_modifier/add_ruby_ore.json
+7a2998f2fc8988ce467b47f89253dbd6fd86aed7 data/rubymod/forge/biome_modifier/add_tree_hazelnut.json
 56579a240d0eb6c258b0eaee1ec9f24c6efe0bd2 data/rubymod/worldgen/configured_feature/end_ruby_ore.json
 eeb48d6471b21b021f9fedbf9b0083d793b7fa38 data/rubymod/worldgen/configured_feature/hazelnut.json
 54cf8b1f1401201ff466f14f60ec20521db79c53 data/rubymod/worldgen/configured_feature/nether_ruby_ore.json
 6e3d5b6b0516fc47f6800f6812983408cb3aadc5 data/rubymod/worldgen/configured_feature/ruby_ore.json
 ce3da34278a9d9d5184273043af9873fdc6ef463 data/rubymod/worldgen/placed_feature/end_ruby_ore_placed.json
+ce2c82417cb52954f402eb6cf5ce72309d3422fe data/rubymod/worldgen/placed_feature/hazelnut_placed.json
 595242cacd35a8e54d6a90e092721be49a51bf66 data/rubymod/worldgen/placed_feature/nether_ruby_ore_placed.json
 b9ba2fc61a501485f0f3b47d0be10796608a5374 data/rubymod/worldgen/placed_feature/ruby_ore_placed.json

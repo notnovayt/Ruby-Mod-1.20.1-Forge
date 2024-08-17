@@ -32,6 +32,7 @@ import net.surya.rubymod.screen.ModMenuTypes;
 import net.surya.rubymod.sound.ModSounds;
 import net.surya.rubymod.util.ModWoodTypes;
 import net.surya.rubymod.villager.ModVillagers;
+import net.surya.rubymod.worldgen.tree.ModTrunkPlacerTypes;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -60,6 +61,8 @@ public class RubyMod {
         ModMenuTypes.register(modEventBus);
 
         ModRecipes.register(modEventBus);
+
+        ModTrunkPlacerTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
