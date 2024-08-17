@@ -54,6 +54,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.HAZELNUT_BOAT.get());
                         pOutput.accept(ModItems.HAZELNUT_CHEST_BOAT.get());
 
+                        pOutput.accept(ModItems.DICE.get());
+
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
 

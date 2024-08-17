@@ -88,6 +88,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.HAZELNUT_BOAT);
         simpleItem(ModItems.HAZELNUT_CHEST_BOAT);
+
+        simpleItem(ModItems.DICE);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

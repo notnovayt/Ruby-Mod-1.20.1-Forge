@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "number=up": {
+      "model": "rubymod:block/dice_1"
+    },
+    "number=north": {
+      "model": "rubymod:block/dice_2"
+    },
+    "number=east": {
+      "model": "rubymod:block/dice_3"
+    },
+    "number=south": {
+      "model": "rubymod:block/dice_5"
+    },
+    "number=west": {
+      "model": "rubymod:block/dice_4"
+    },
+    "number=down": {
+      "model": "rubymod:block/dice_6"
+    }
+  }
+}
