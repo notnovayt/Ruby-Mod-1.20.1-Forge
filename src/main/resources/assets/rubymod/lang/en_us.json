@@ -69,6 +69,8 @@
   "block.rubymod.hazelnut_sign": "Hazelnut Sign",
   "block.rubymod.hazelnut_hanging_sign": "Hazelnut Hanging Sign",
 
+  "block.rubymod.hazelnut_sapling": "Hazelnut Sapling",
+
   "tooltip.rubymod.metal_detector.tooltip": "Finds valuable ores underground",
   "tooltip.rubymod.sound_block.tooltip": "Plays a sound when right-clicked",
 

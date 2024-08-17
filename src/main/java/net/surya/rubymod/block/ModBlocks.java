@@ -21,6 +21,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.surya.rubymod.sound.ModSounds;
 import net.surya.rubymod.util.ModWoodTypes;
+import net.surya.rubymod.worldgen.tree.HazelnutTreeGrower;
 
 import java.util.function.Supplier;
 
@@ -146,6 +147,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DICE_BLOCK = BLOCKS.register("dice_block",
             () -> new DiceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noLootTable()));
+
+    public static final RegistryObject<Block> HAZELNUT_SAPLING = registerBlock("hazelnut_sapling",
+            () -> new SaplingBlock(new HazelnutTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

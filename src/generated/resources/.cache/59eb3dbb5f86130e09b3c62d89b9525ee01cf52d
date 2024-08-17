@@ -1,13 +1,14 @@
-// 1.20.1	2024-08-14T22:19:25.4958183	Loot Tables
+// 1.20.1	2024-08-16T22:29:56.1862989	Loot Tables
 8407f5c9fa5fc9ecef33ef6a8a9d0e548d7b488b data/rubymod/loot_tables/blocks/corn_crop.json
 b7372123e3232212c156f4a6a961a168dff8330e data/rubymod/loot_tables/blocks/dahlia.json
 e6424981b0645a74a4b951e12cc0c5a3cf1aa022 data/rubymod/loot_tables/blocks/deepslate_ruby_ore.json
 1dfe20d0ad677d8fb9d398e1533ddc39888b1d45 data/rubymod/loot_tables/blocks/end_stone_ruby_ore.json
 346c4e055f7b6a45ff7e27deb3cbef7ff12ca3b1 data/rubymod/loot_tables/blocks/gem_polishing_station.json
 f4c8bdbcdd24a1d0193355cae534db97fa05a7af data/rubymod/loot_tables/blocks/hazelnut_hanging_sign.json
-4802f246211e80dc1a58ff8f6686dc9d91f4073d data/rubymod/loot_tables/blocks/hazelnut_leaves.json
+a8cfb2e98bcdcaec38f7a7f4968126e2aec07d89 data/rubymod/loot_tables/blocks/hazelnut_leaves.json
 3f2049cc114283a3a1519bc249a53b994fdf3ac6 data/rubymod/loot_tables/blocks/hazelnut_log.json
 b942a079582b3d78382e74e1460ca53e1519f2fa data/rubymod/loot_tables/blocks/hazelnut_planks.json
+a6ef06d3ff05fa15b91d5c88d39a7afd4967eade data/rubymod/loot_tables/blocks/hazelnut_sapling.json
 798e5e34d71a16887b263d66c3821c2725130198 data/rubymod/loot_tables/blocks/hazelnut_sign.json
 8a09a3a968703a2440fb0eb6a15a3e64c55fccc8 data/rubymod/loot_tables/blocks/hazelnut_wall_hanging_sign.json
 ef3b5d4bda82814d3f64bc875945d6121c3c8c7a data/rubymod/loot_tables/blocks/hazelnut_wall_sign.json

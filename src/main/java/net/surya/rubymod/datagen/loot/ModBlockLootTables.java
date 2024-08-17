@@ -80,7 +80,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.HAZELNUT_PLANKS.get());
 
         this.add(ModBlocks.HAZELNUT_LEAVES.get(), block ->
-                createLeavesDrops(block, ModBlocks.RUBY_BLOCK.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+                createLeavesDrops(block, ModBlocks.HAZELNUT_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
         this.add(ModBlocks.HAZELNUT_SIGN.get(), block ->
                 createSingleItemTable(ModItems.HAZELNUT_SIGN.get()));
@@ -90,6 +90,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 createSingleItemTable(ModItems.HAZELNUT_HANGING_SIGN.get()));
         this.add(ModBlocks.HAZELNUT_WALL_HANGING_SIGN.get(), block ->
                 createSingleItemTable(ModItems.HAZELNUT_HANGING_SIGN.get()));
+
+        this.dropSelf(ModBlocks.HAZELNUT_SAPLING.get());
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

@@ -90,6 +90,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.HAZELNUT_PLANKS.get());
                         pOutput.accept(ModBlocks.HAZELNUT_LEAVES.get());
 
+                        pOutput.accept(ModBlocks.HAZELNUT_SAPLING.get());
+
                     })
                     .build());
 
