@@ -32,6 +32,7 @@ import net.surya.rubymod.screen.ModMenuTypes;
 import net.surya.rubymod.sound.ModSounds;
 import net.surya.rubymod.util.ModWoodTypes;
 import net.surya.rubymod.villager.ModVillagers;
+import net.surya.rubymod.worldgen.tree.ModFoliagePlacers;
 import net.surya.rubymod.worldgen.tree.ModTrunkPlacerTypes;
 import org.slf4j.Logger;
 
@@ -63,6 +64,7 @@ public class RubyMod {
         ModRecipes.register(modEventBus);
 
         ModTrunkPlacerTypes.register(modEventBus);
+        ModFoliagePlacers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
