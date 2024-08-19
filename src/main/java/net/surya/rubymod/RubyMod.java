@@ -33,9 +33,11 @@ import net.surya.rubymod.sound.ModSounds;
 import net.surya.rubymod.util.ModWoodTypes;
 import net.surya.rubymod.villager.ModVillagers;
 import net.surya.rubymod.worldgen.biome.ModTerrablender;
+import net.surya.rubymod.worldgen.biome.surface.ModSurfaceRules;
 import net.surya.rubymod.worldgen.tree.ModFoliagePlacers;
 import net.surya.rubymod.worldgen.tree.ModTrunkPlacerTypes;
 import org.slf4j.Logger;
+import terrablender.api.SurfaceRuleManager;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(RubyMod.MOD_ID)
@@ -79,6 +81,8 @@ public class RubyMod {
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
             ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.DAHLIA.getId(), ModBlocks.POTTED_DAHLIA);
+
+            SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
         });
     }
 

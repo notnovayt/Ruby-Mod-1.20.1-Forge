@@ -71,6 +71,8 @@
 
   "block.rubymod.hazelnut_sapling": "Hazelnut Sapling",
 
+  "block.rubymod.mod_portal": "Ruby Portal Block",
+
   "tooltip.rubymod.metal_detector.tooltip": "Finds valuable ores underground",
   "tooltip.rubymod.sound_block.tooltip": "Plays a sound when right-clicked",
 

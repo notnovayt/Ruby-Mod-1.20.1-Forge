@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "rubymod:ruby_staff"
+    },
+    "S": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SRS",
+    "SSS"
+  ],
+  "result": {
+    "item": "rubymod:mod_portal"
+  },
+  "show_notification": true
+}

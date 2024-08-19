@@ -81,6 +81,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         hangingSignBlock(ModBlocks.HAZELNUT_HANGING_SIGN.get(), ModBlocks.HAZELNUT_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.HAZELNUT_PLANKS.get()));
 
         saplingBlock(ModBlocks.HAZELNUT_SAPLING);
+
+        blockWithItem(ModBlocks.MOD_PORTAL);
     }
 
     private void saplingBlock(RegistryObject<Block> blockRegistryObject) {

@@ -92,6 +92,8 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.HAZELNUT_SAPLING.get());
 
+                        pOutput.accept(ModBlocks.MOD_PORTAL.get());
+
                     })
                     .build());
 

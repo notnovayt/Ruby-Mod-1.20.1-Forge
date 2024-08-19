@@ -1,6 +1,7 @@
-// 1.20.1	2024-08-05T19:42:41.7646496	Recipes
+// 1.20.1	2024-08-19T14:33:38.6663444	Recipes
 58cdbf431f3ddebe60a5ba4209cf3458b1824ffb data/rubymod/advancements/recipes/misc/coal_briquette.json
 d969a8a596f2d23431713d5ff869726efecd7379 data/rubymod/advancements/recipes/misc/metal_detector.json
+7354ac13c772f687a00c4d4f5c29c310f7e1e9c2 data/rubymod/advancements/recipes/misc/mod_portal.json
 96b2b9db4272faa828b1d4ace6f8c318b7cb19fe data/rubymod/advancements/recipes/misc/raw_ruby_block.json
 2ddf44e650807b95c6737133632c004d56a81df8 data/rubymod/advancements/recipes/misc/ruby.json
 4b2ce5a915a17895855ce4e9e18d289232811e83 data/rubymod/advancements/recipes/misc/ruby_block.json
@@ -19,6 +20,7 @@ b78119aa9a0e55bf64a3e2145a37bbdcb1a3f7d4 data/rubymod/advancements/recipes/misc/
 d0694e71fc4f21f984e59bd0ce252eef02eeca9e data/rubymod/advancements/recipes/misc/sound_block.json
 5742b376bc35fb1b01c9e52ca00418e17d99ffac data/rubymod/recipes/coal_briquette.json
 901f69990bf34acacc66774849b8a2a72d13fc91 data/rubymod/recipes/metal_detector.json
+01788de24847839390376c921a9da26d4c1b4489 data/rubymod/recipes/mod_portal.json
 5753f6dd67a60fc46837b16acfb948c361ae6417 data/rubymod/recipes/raw_ruby_block.json
 559787c1c6c69dc51e819d65d5f81212d1e7043c data/rubymod/recipes/ruby.json
 52053318e2636096053f272b5c43abaf44b7a08b data/rubymod/recipes/ruby_block.json

@@ -1,8 +1,11 @@
-// 1.20.1	2024-08-17T22:21:47.0536464	Registries
+// 1.20.1	2024-08-18T22:38:29.3820341	Registries
+80cf93bbca7d26c4d54cfc31cecddc7e697ee5b3 data/rubymod/dimension/suryadim.json
+e241e971aacde6f4d0236c622c99d6c9caeb981e data/rubymod/dimension_type/suryadim_type.json
 8c8d482323611089725755d6bb0f8a71cd2a981b data/rubymod/forge/biome_modifier/add_end_ruby_ore.json
 710ce648d893d6a9ed243bfb883c652ae61383d8 data/rubymod/forge/biome_modifier/add_nether_ruby_ore.json
 9691a921c860348f9547bde21dd7399faaa9ef62 data/rubymod/forge/biome_modifier/add_ruby_ore.json
 7a2998f2fc8988ce467b47f89253dbd6fd86aed7 data/rubymod/forge/biome_modifier/add_tree_hazelnut.json
+206ead893ebca64bf5cff4423717abfcd2291f09 data/rubymod/worldgen/biome/hazel_biome.json
 56579a240d0eb6c258b0eaee1ec9f24c6efe0bd2 data/rubymod/worldgen/configured_feature/end_ruby_ore.json
 a3a947c4ae3463751297e6be2f282d1bff667c87 data/rubymod/worldgen/configured_feature/hazelnut.json
 54cf8b1f1401201ff466f14f60ec20521db79c53 data/rubymod/worldgen/configured_feature/nether_ruby_ore.json
