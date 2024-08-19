@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "rubymod:ruby"
+    }
+  },
+  "pattern": [
+    "IRI",
+    "IRI"
+  ],
+  "result": {
+    "item": "rubymod:ruby_fence_gate"
+  }
+}

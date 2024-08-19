@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "rubymod:ruby"
+    }
+  },
+  "pattern": [
+    "RR"
+  ],
+  "result": {
+    "item": "rubymod:ruby_pressure_plate"
+  }
+}

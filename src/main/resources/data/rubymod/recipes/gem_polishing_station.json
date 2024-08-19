@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:polished_blackstone_slab"
+    },
+    "S": {
+      "item": "minecraft:stonecutter"
+    },
+    "W": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "pattern": [
+    "   ",
+    "PPP",
+    "WSW"
+  ],
+  "result": {
+    "item": "rubymod:gem_polishing_station"
+  }
+}
